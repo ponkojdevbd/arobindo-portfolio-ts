@@ -1,5 +1,4 @@
-import React from 'react';
-import { Users, Award, Heart, Clock, Check } from 'lucide-react';
+import { Users, Award, Heart, Clock, Check } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -15,13 +14,16 @@ const Hero = () => {
 
             {/* Heading */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary">
-              Dr. Sarah <br />
-              Mitchell
+              Arobindo Mondol <br />
+              <span className="text-base tracking-wider md:text-xl">
+                Sub-Assistant Community Medical Officer (SACMO)
+              </span>
             </h1>
 
             {/* Description */}
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Compassionate healthcare focused on your wellness. Specializing in internal medicine with a holistic approach to patient care.
+              Compassionate healthcare focused on your wellness. Specializing in
+              internal medicine with a holistic approach to patient care.
             </p>
 
             {/* Buttons */}
@@ -42,7 +44,9 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-bold text-xl">5000+</div>
-                  <div className="text-xs text-muted-foreground uppercase tracking-wider">Patients Served</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider">
+                    Patients Served
+                  </div>
                 </div>
               </div>
 
@@ -52,7 +56,9 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-bold text-xl">15+</div>
-                  <div className="text-xs text-muted-foreground uppercase tracking-wider">Years Experience</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider">
+                    Years Experience
+                  </div>
                 </div>
               </div>
 
@@ -62,7 +68,9 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-bold text-xl">98%</div>
-                  <div className="text-xs text-muted-foreground uppercase tracking-wider">Success Rate</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider">
+                    Success Rate
+                  </div>
                 </div>
               </div>
 
@@ -72,7 +80,9 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-bold text-xl">24/7</div>
-                  <div className="text-xs text-muted-foreground uppercase tracking-wider">Emergency Care</div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-wider">
+                    Emergency Care
+                  </div>
                 </div>
               </div>
             </div>
@@ -82,12 +92,12 @@ const Hero = () => {
           <div className="relative lg:h-[600px] flex items-center justify-center">
             {/* Main Image Container */}
             <div className="relative w-full max-w-md lg:max-w-full aspect-[4/5] lg:aspect-auto lg:h-full rounded-[2rem] overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1000&auto=format&fit=crop" 
-                alt="Dr. Sarah Mitchell" 
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1000&auto=format&fit=crop"
+                alt="Dr. Sarah Mitchell"
                 className="w-full h-full object-cover object-center"
               />
-              
+
               {/* Gradient Overlay for better text readability if needed, though design doesn't show much */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 lg:opacity-20"></div>
             </div>
@@ -98,8 +108,12 @@ const Hero = () => {
                 <Heart className="w-6 h-6 fill-current" />
               </div>
               <div>
-                <h3 className="font-semibold text-card-foreground">Patient-Centered Care</h3>
-                <p className="text-xs text-muted-foreground">Personalized treatment plans for every patient</p>
+                <h3 className="font-semibold text-card-foreground">
+                  Patient-Centered Care
+                </h3>
+                <p className="text-xs text-muted-foreground">
+                  Personalized treatment plans for every patient
+                </p>
               </div>
             </div>
           </div>
