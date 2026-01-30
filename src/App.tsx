@@ -4,9 +4,10 @@ import About from "@/components/About";
 import CoreValue from "@/components/CoreValue";
 import YourCareJourney from "@/components/YourCareJourney";
 import MedicalServices from "@/components/MedicalServices";
+import NewPatientCta from "@/components/NewPatientCta";
 import Appointment from "@/components/Appointment";
 
-function App() {  
+function App() {
   return (
     <>
       <Header />
@@ -17,6 +18,7 @@ function App() {
         <MedicalServices />
         <YourCareJourney />
         <Appointment />
+        <NewPatientCta />
       </main>
     </>
   );
