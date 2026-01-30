@@ -6,7 +6,7 @@ import YourCareJourney from "@/components/YourCareJourney";
 import MedicalServices from "@/components/MedicalServices";
 import Appointment from "@/components/Appointment";
 
-function App() {
+function App() {  
   return (
     <>
       <Header />
