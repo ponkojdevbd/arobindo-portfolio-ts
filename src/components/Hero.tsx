@@ -1,4 +1,5 @@
 import { Users, Award, Heart, Clock } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const Hero = () => {
   return (
@@ -93,9 +94,9 @@ const Hero = () => {
             {/* Main Image Container */}
             <div className="relative w-full max-w-md lg:max-w-full aspect-[4/5] lg:aspect-auto lg:h-full rounded-[2rem] overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1000&auto=format&fit=crop"
-                alt="Dr. Sarah Mitchell"
-                className="w-full h-full object-cover object-center"
+                src={assets.arobindo_profile_img}
+                alt="Arobindo Mondol"
+                className="w-full h-full object-cover object-center object-top"
               />
 
               {/* Gradient Overlay for better text readability if needed, though design doesn't show much */}

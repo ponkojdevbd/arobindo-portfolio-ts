@@ -1,4 +1,5 @@
 import { GraduationCap, Briefcase, Award, BookOpen } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const About = () => {
   const cards = [
@@ -66,9 +67,9 @@ const About = () => {
           <div className="relative group">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] aspect-square max-h-[500px] mx-auto lg:mx-0">
               <img
-                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=1000&auto=format&fit=crop"
+                src={assets.arobindo_profile_img}
                 alt="Arobindo Mondol"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center object-top"
               />
               <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
