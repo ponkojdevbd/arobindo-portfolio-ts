@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import CoreValue from "@/components/CoreValue";
 import MedicalServices from "@/components/MedicalServices";
+import YourCareJourney from "@/components/YourCareJourney";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <CoreValue />
         <MedicalServices />
+        <YourCareJourney />
       </main>
     </>
   );
