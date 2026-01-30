@@ -2,8 +2,9 @@ import { Header } from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import CoreValue from "@/components/CoreValue";
-import MedicalServices from "@/components/MedicalServices";
 import YourCareJourney from "@/components/YourCareJourney";
+import MedicalServices from "@/components/MedicalServices";
+import Appointment from "@/components/Appointment";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <CoreValue />
         <MedicalServices />
         <YourCareJourney />
+        <Appointment />
       </main>
     </>
   );
