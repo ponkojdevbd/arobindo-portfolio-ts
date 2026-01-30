@@ -1,4 +1,13 @@
-import { Heart, Activity, Stethoscope, ClipboardCheck } from "lucide-react";
+import {
+  Heart,
+  Activity,
+  Stethoscope,
+  ClipboardCheck,
+  UserCheck,
+  Pill,
+  Video,
+  Shield,
+} from "lucide-react";
 
 const MedicalServices = () => {
   const services = [
@@ -48,6 +57,54 @@ const MedicalServices = () => {
         "EKG Testing",
         "Imaging Referrals",
         "Health Screenings",
+      ],
+    },
+    {
+      title: "Geriatric Care",
+      description:
+        "Specialized care for older adults focusing on maintaining independence, managing multiple conditions, and quality of life.",
+      icon: <UserCheck className="w-6 h-6" />,
+      bullets: [
+        "Senior Wellness",
+        "Memory Care",
+        "Fall Prevention",
+        "Medication Management",
+      ],
+    },
+    {
+      title: "Medication Management",
+      description:
+        "Careful oversight of your medications to ensure safety, effectiveness, and minimize side effects or interactions.",
+      icon: <Pill className="w-6 h-6" />,
+      bullets: [
+        "Prescription Review",
+        "Drug Interaction Check",
+        "Side Effect Monitoring",
+        "Medication Education",
+      ],
+    },
+    {
+      title: "Telemedicine",
+      description:
+        "Convenient virtual appointments for follow-ups, medication reviews, and minor health concerns from the comfort of your home.",
+      icon: <Video className="w-6 h-6" />,
+      bullets: [
+        "Video Consultations",
+        "Online Prescription Refills",
+        "Remote Monitoring",
+        "Digital Health Records",
+      ],
+    },
+    {
+      title: "Specialized Referrals",
+      description:
+        "Coordinated care with trusted specialists to ensure you receive the best comprehensive treatment for complex conditions.",
+      icon: <Shield className="w-6 h-6" />,
+      bullets: [
+        "Specialist Coordination",
+        "Second Opinions",
+        "Treatment Planning",
+        "Care Continuity",
       ],
     },
   ];
