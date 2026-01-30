@@ -45,8 +45,8 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-16 space-y-4">
-          <h3 className="text-sm font-bold tracking-[0.2em] text-primary/80 uppercase">
-            ABOUT ARUBINDO MONDOL
+          <h3 className="inline-flex items-center px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm font-medium tracking-wide uppercase">
+            ABOUT AROBINDO MONDOL
           </h3>
           <h2 className="text-3xl md:text-5xl font-bold text-primary tracking-tight">
             Dedicated to Your Health & Wellness

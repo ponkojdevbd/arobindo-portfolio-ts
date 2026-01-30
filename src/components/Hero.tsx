@@ -1,4 +1,4 @@
-import { Users, Award, Heart, Clock, Check } from "lucide-react";
+import { Users, Award, Heart, Clock } from "lucide-react";
 
 const Hero = () => {
   return (
