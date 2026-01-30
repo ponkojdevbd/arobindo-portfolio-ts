@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import CoreValue from "@/components/CoreValue";
-
+import MedicalServices from "@/components/MedicalServices";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Hero />
         <About />
         <CoreValue />
+        <MedicalServices />
       </main>
     </>
   );
