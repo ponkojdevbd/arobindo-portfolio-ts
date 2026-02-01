@@ -7,32 +7,33 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8 ">
             {/* Badge */}
-            <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm font-medium tracking-wide">
+            {/* <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm font-medium tracking-wide">
               BOARD CERTIFIED PHYSICIAN
-            </div>
+            </div> */}
 
             {/* Heading */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary">
-              Arobindo Mondol <br />
-              <span className="text-base tracking-wider md:text-xl">
-                Sub-Assistant Community Medical Officer (SACMO)
-              </span>
+            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold tracking-tight text-primary">
+              Arobindo Mondol
             </h1>
+            <p className="text-sm md:text-lg font-semibold text-primary/60">
+              Sub-Assistant <br className="hidden md:block max-w-md" />
+              Community Medical Officer (SACMO)
+            </p>
 
             {/* Description */}
-            <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
+            <p className="text-sm md:text-lg text-muted-foreground max-w-lg leading-relaxed">
               Compassionate healthcare focused on your wellness. Specializing in
               internal medicine with a holistic approach to patient care.
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity shadow-lg shadow-primary/20">
+            <div className="flex md:justify-start flex-wrap gap-4">
+              <button className="px-8 py-3 rounded-full bg-primary text-primary-foreground text-sm md:text-base font-medium hover:opacity-90 transition-opacity shadow-lg shadow-primary/20">
                 Book Appointment
               </button>
-              <button className="px-8 py-3 rounded-full border border-input bg-transparent text-foreground font-medium hover:bg-accent hover:text-accent-foreground transition-colors">
+              <button className="px-8 py-3 rounded-full border border-input bg-transparent text-foreground text-sm md:text-base font-medium hover:bg-accent hover:text-accent-foreground transition-colors">
                 Learn More
               </button>
             </div>
@@ -90,7 +91,7 @@ const Hero = () => {
           </div>
 
           {/* Right Column - Image */}
-          <div className="relative lg:h-[600px] flex items-center justify-center">
+          <div className="relative lg:h-[600px] flex items-center justify-center animation1">
             {/* Main Image Container */}
             <div className="relative w-full max-w-md lg:max-w-full aspect-[4/5] lg:aspect-auto lg:h-full rounded-[2rem] overflow-hidden shadow-2xl">
               <img
@@ -100,7 +101,7 @@ const Hero = () => {
               />
 
               {/* Gradient Overlay for better text readability if needed, though design doesn't show much */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 lg:opacity-20"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-100"></div>
             </div>
 
             {/* Floating Card */}
