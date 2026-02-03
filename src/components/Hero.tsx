@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Hero = () => {
   return (
-    <section className="bg-background text-foreground py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-background text-foreground py-16 px-2 sm:px-4 lg:px-8 overflow-hidden transition-all duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
@@ -14,16 +14,16 @@ const Hero = () => {
             </div> */}
 
             {/* Heading */}
-            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold tracking-tight text-primary">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-primary antialiased">
               Arobindo Mondol
             </h1>
-            <p className="text-sm md:text-lg font-semibold text-primary/60">
+            <p className="text-base md:text-lg font-semibold text-primary/50 tracking-tight">
               Sub-Assistant <br className="hidden md:block max-w-md" />
               Community Medical Officer (SACMO)
             </p>
 
             {/* Description */}
-            <p className="text-sm md:text-lg text-muted-foreground max-w-lg leading-relaxed">
+            <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-lg leading-relaxed">
               Compassionate healthcare focused on your wellness. Specializing in
               internal medicine with a holistic approach to patient care.
             </p>
